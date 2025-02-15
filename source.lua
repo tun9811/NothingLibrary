@@ -1084,7 +1084,7 @@ function Library.new(config)
 		Icon.Name = "Icon"
 		Icon.Parent = TabButton
 		Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-		Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
+		Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		Icon.BackgroundTransparency = 1.000
 		Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Icon.BorderSizePixel = 0
@@ -1353,7 +1353,7 @@ function Library.new(config)
 			Icon.Name = "Icon"
 			Icon.Parent = Header
 			Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-			Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
+			Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Icon.BackgroundTransparency = 1.000
 			Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Icon.BorderSizePixel = 0
@@ -1376,13 +1376,13 @@ function Library.new(config)
 			BlockFrame.Parent = Header
 			BlockFrame.AnchorPoint = Vector2.new(0.5, 1)
 			BlockFrame.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
-			BlockFrame.BackgroundTransparency = 0
+			BlockFrame.BackgroundTransparency = 1
 			BlockFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			BlockFrame.BorderSizePixel = 0
 			BlockFrame.Position = UDim2.new(0.5, 0, 1, 0)
 			BlockFrame.Size = UDim2.new(1, 0, 0, 1)
 			BlockFrame.ZIndex = 3
-			Twen:Create(BlockFrame,TweenInfo2,{BackgroundTransparency = 0.8}):Play();
+			Twen:Create(BlockFrame,TweenInfo2,{BackgroundTransparency = 0}):Play();
 
 			UICorner_4.CornerRadius = UDim.new(0, 0)
 			UICorner_4.Parent = BlockFrame
@@ -1493,7 +1493,7 @@ function Library.new(config)
 
 				Button.Name = "Button"
 				Button.Parent = FunctionToggle
-				Button.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
+				Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Button.BackgroundTransparency = 1.000
 				Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				Button.BorderSizePixel = 0
@@ -1530,7 +1530,7 @@ function Library.new(config)
 				Icon.Name = "Icon"
 				Icon.Parent = System
 				Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-				Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
+				Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Icon.BackgroundTransparency = 0.500
 				Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				Icon.BorderSizePixel = 0
@@ -1554,12 +1554,12 @@ function Library.new(config)
 
 						Twen:Create(Icon,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
 							Position = UDim2.new(0.75, 0, 0.5, 0),
-							BackgroundTransparency = 0
+							BackgroundTransparency = 0.4
 						}):Play()
 					else
 						Twen:Create(Icon,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
 							Position = UDim2.new(0.25, 0, 0.5, 0),
-							BackgroundTransparency = 0
+							BackgroundTransparency = 0.500
 						}):Play()
 
 						Twen:Create(TextInt,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
