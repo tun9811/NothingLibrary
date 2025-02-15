@@ -1530,7 +1530,7 @@ function Library.new(config)
 				Icon.Name = "Icon"
 				Icon.Parent = System
 				Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-				Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 				Icon.BackgroundTransparency = 0.500
 				Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				Icon.BorderSizePixel = 0
