@@ -1384,10 +1384,10 @@ function Library.new(config)
 			BlockFrame.ZIndex = 3
 			Twen:Create(BlockFrame,TweenInfo2,{BackgroundTransparency = 0.8}):Play();
 
-			UICorner_4.CornerRadius = UDim.new(0.5, 0)
+			UICorner_4.CornerRadius = UDim.new(0, 0)
 			UICorner_4.Parent = BlockFrame
 
-			UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.00), NumberSequenceKeypoint.new(0.10, 0.00), NumberSequenceKeypoint.new(0.90, 0.00), NumberSequenceKeypoint.new(1.00, 1.00)}
+			UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.00, 0.00)}
 			UIGradient_2.Parent = BlockFrame
 
 			Title.Name = "Title"
