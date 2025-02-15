@@ -1493,7 +1493,7 @@ function Library.new(config)
 
 				Button.Name = "Button"
 				Button.Parent = FunctionToggle
-				Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Button.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 				Button.BackgroundTransparency = 1.000
 				Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				Button.BorderSizePixel = 0
