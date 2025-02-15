@@ -1084,7 +1084,7 @@ function Library.new(config)
 		Icon.Name = "Icon"
 		Icon.Parent = TabButton
 		Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-		Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 		Icon.BackgroundTransparency = 1.000
 		Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Icon.BorderSizePixel = 0
@@ -1353,7 +1353,7 @@ function Library.new(config)
 			Icon.Name = "Icon"
 			Icon.Parent = Header
 			Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-			Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 			Icon.BackgroundTransparency = 1.000
 			Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Icon.BorderSizePixel = 0
@@ -1375,7 +1375,7 @@ function Library.new(config)
 			BlockFrame.Name = "BlockFrame"
 			BlockFrame.Parent = Header
 			BlockFrame.AnchorPoint = Vector2.new(0.5, 1)
-			BlockFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			BlockFrame.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 			BlockFrame.BackgroundTransparency = 1
 			BlockFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			BlockFrame.BorderSizePixel = 0
@@ -1554,12 +1554,12 @@ function Library.new(config)
 
 						Twen:Create(Icon,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
 							Position = UDim2.new(0.75, 0, 0.5, 0),
-							BackgroundTransparency = 0.4
+							BackgroundTransparency = 0
 						}):Play()
 					else
 						Twen:Create(Icon,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
 							Position = UDim2.new(0.25, 0, 0.5, 0),
-							BackgroundTransparency = 0.500
+							BackgroundTransparency = 0
 						}):Play()
 
 						Twen:Create(TextInt,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
