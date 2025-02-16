@@ -1084,7 +1084,7 @@ function Library.new(config)
 		Icon.Name = "Icon"
 		Icon.Parent = TabButton
 		Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-		Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 		Icon.BackgroundTransparency = 1.000
 		Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Icon.BorderSizePixel = 0
@@ -2896,7 +2896,7 @@ Library.Notification = function()
 			icon.Name = "icon"
 			icon.Parent = Notifiy
 			icon.AnchorPoint = Vector2.new(0.5, 0.5)
-			icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 			icon.BackgroundTransparency = 1.000
 			icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			icon.BorderSizePixel = 0
