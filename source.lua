@@ -1355,7 +1355,7 @@ function Library.new(config)
 			Icon.AnchorPoint = Vector2.new(0.5, 0.5)
 			Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 			Icon.BackgroundTransparency = 1.000
-			Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			Icon.BorderColor3 = Color3.fromRGB(146, 255, 146)
 			Icon.BorderSizePixel = 0
 			Icon.Position = UDim2.new(0.0649999976, 0, 0.5, 0)
 			Icon.Size = UDim2.new(0.600000024, 0, 0.600000024, 0)
@@ -1393,7 +1393,7 @@ function Library.new(config)
 			Title.Name = "Title"
 			Title.Parent = Header
 			Title.AnchorPoint = Vector2.new(0, 0.5)
-			Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
 			Title.BackgroundTransparency = 1.000
 			Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Title.BorderSizePixel = 0
