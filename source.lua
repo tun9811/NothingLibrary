@@ -1353,8 +1353,8 @@ function Library.new(config)
 			Icon.Name = "Icon"
 			Icon.Parent = Header
 			Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-			Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			Icon.BackgroundTransparency = 1.000
+			Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
+			Icon.BackgroundTransparency = 0
 			Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Icon.BorderSizePixel = 0
 			Icon.Position = UDim2.new(0.0649999976, 0, 0.5, 0)
@@ -1363,7 +1363,7 @@ function Library.new(config)
 			Icon.ZIndex = 6
 			Icon.Image = Icons[c_o_n_f_i_g.Icon] or c_o_n_f_i_g.Icon; 
 			Icon.ImageTransparency = 1
-			Twen:Create(Icon,TweenInfo2,{ImageTransparency = 0.1}):Play();
+			Twen:Create(Icon,TweenInfo2,{ImageTransparency = 0}):Play();
 
 			UICorner_3.CornerRadius = UDim.new(0, 3)
 			UICorner_3.Parent = Icon
@@ -1530,8 +1530,8 @@ function Library.new(config)
 				Icon.Name = "Icon"
 				Icon.Parent = System
 				Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-				Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-				Icon.BackgroundTransparency = 0.500
+				Icon.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
+				Icon.BackgroundTransparency = 0
 				Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				Icon.BorderSizePixel = 0
 				Icon.Position = UDim2.new(0.25, 0, 0.5, 0)
@@ -1554,12 +1554,12 @@ function Library.new(config)
 
 						Twen:Create(Icon,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
 							Position = UDim2.new(0.75, 0, 0.5, 0),
-							BackgroundTransparency = 0.4
+							BackgroundTransparency = 0
 						}):Play()
 					else
 						Twen:Create(Icon,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
 							Position = UDim2.new(0.25, 0, 0.5, 0),
-							BackgroundTransparency = 0.500
+							BackgroundTransparency = 0
 						}):Play()
 
 						Twen:Create(TextInt,TweenInfo.new(0.15,Enum.EasingStyle.Quint),{
