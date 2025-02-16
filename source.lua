@@ -1426,7 +1426,7 @@ function Library.new(config)
 			end)
 
 			UIStroke.Transparency = 1
-			UIStroke.Color = Color3.fromRGB(255, 255, 255)
+			UIStroke.Color = Color3.fromRGB(146, 255, 146)
 			UIStroke.Parent = Section
 			Twen:Create(UIStroke,TweenInfo1,{Transparency = 0.9}):Play();
 
