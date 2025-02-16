@@ -1376,7 +1376,7 @@ function Library.new(config)
 			BlockFrame.Parent = Header
 			BlockFrame.AnchorPoint = Vector2.new(0.5, 1)
 			BlockFrame.BackgroundColor3 = Color3.fromRGB(146, 255, 146)
-			BlockFrame.BackgroundTransparency = 1
+			BlockFrame.BackgroundTransparency = 0
 			BlockFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			BlockFrame.BorderSizePixel = 0
 			BlockFrame.Position = UDim2.new(0.5, 0, 1, 0)
